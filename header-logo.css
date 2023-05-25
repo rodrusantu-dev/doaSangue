@@ -1,0 +1,63 @@
+.header-logo img {
+    max-width: 350px; /* Defina o tamanho desejado para a largura máxima da imagem */
+    height: auto; /* Mantém a proporção de altura da imagem */
+    margin: auto;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    
+  }
+  
+  .header-logo {
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+    color: blue;
+  }
+  
+  @media screen and (max-width: 600px) {
+    header {
+      flex-direction: column;
+    }
+
+    .header-logo img {
+      max-width: 250px; /* Defina o tamanho desejado para a largura máxima da imagem */
+      height: auto; /* Mantém a proporção de altura da imagem */
+      margin: auto;
+    }
+    
+    .header-logo {
+      margin-bottom: 0px;
+    }
+    
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      display: inline;
+      
+    }
+    
+    nav ul li {
+      margin-right: 20;
+      margin-bottom: 10px;
+      display: inline;
+    }
+  }
+  
+  
