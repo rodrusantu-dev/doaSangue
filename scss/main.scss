@@ -1,21 +1,12 @@
 
 @import './base/base';
-@import './base/fonts';
-@import './base/typography';
-
-@import './components/button';
+@import './base/animations';
 
 @import './global/reset.scss';
 
-@import './layout/banner-home';
 @import './layout/footer';
-@import './layout/header-logo';
 @import './layout/header';
+@import './layout/navigation';
 
-@import './pages/home';
-
-@import './utils/functions';
-@import './utils/helpers';
-@import './utils/mixins';
 @import './utils/variables';
 

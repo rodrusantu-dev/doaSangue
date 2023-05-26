@@ -1,12 +1,13 @@
+@use '../utils/variables' as var; //abreviação de variables VAR.
+
 footer {
-    background-color: #700707;
+    background-color: var.$cor-vermelhoEscuro;
     padding-top: 25px;
     padding-bottom: 25px;
 
 }
 
 footer p {
-    color: rgb(255, 255, 255);
+    color: var.$cor-branco;
     text-align: center;
-    font-family: 'Roboto Slab', serif;
 }

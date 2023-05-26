@@ -1,40 +1,13 @@
 @charset "UTF-8";
-/* Estilos gerais */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family: "Roboto Slab", serif, "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 h1, h2 {
-  color: #333;
-  font-family: "Roboto Slab", serif;
+  color: #333333;
+  font-family: "Roboto Slab", serif, "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 10px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #D00B0B;
-  font-size: 16px;
-  font-weight: 600;
-  font-family: "Roboto Slab", serif;
-}
-
-nav ul li a:hover {
-  color: #620404; /* Nova cor ao passar o mouse */
-}
-
-/* Estilos específicos */
 header {
   background-color: #EFEEEC;
   padding: 20px;
@@ -54,29 +27,36 @@ section h2 {
   margin-bottom: 10px;
 }
 
-section ul {
-  margin-left: 20px;
-}
-
 #contato {
-  border-top: 1px solid #ccc;
+  border-top: 5px solid #ccc;
   padding-top: 20px;
 }
 
-.banner-home {
-  max-width: 300px; /* Defina o tamanho desejado para a largura máxima da imagem */
+.animated-section {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.animated-section.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 footer {
-  background-color: #700707;
+  background-color: #620404;
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
 footer p {
-  color: rgb(255, 255, 255);
+  color: white;
   text-align: center;
-  font-family: "Roboto Slab", serif;
 }
 
 .header-logo img {
@@ -95,19 +75,6 @@ header {
 
 .header-logo {
   margin-bottom: 20px;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-}
-
-nav ul li {
-  margin-right: 10px;
-  color: blue;
 }
 
 @media screen and (max-width: 600px) {
@@ -132,6 +99,32 @@ nav ul li {
     margin-bottom: 10px;
     display: inline;
   }
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #D00B0B;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Roboto Slab", serif, "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+nav ul li a:hover {
+  color: #620404;
+}
+
+section ul {
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
