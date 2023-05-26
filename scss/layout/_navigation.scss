@@ -1,0 +1,28 @@
+@use '../utils/variables' as var; //abreviação de variables VAR.
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+ 
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: var.$cor-vermelhoClaro;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var.$fonte-titulos;
+  }
+  
+  nav ul li a:hover {
+    color: var.$cor-vermelhoEscuro; 
+  }
+
+  section ul {
+    margin-left: 20px;
+  }

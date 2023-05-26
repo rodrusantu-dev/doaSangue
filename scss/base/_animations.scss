@@ -1,0 +1,13 @@
+// ANIMAÇÃO
+// Faz o texto ir aparecendo a medida que a tela é rolada.
+.animated-section {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+  }
+  
+  .animated-section.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  
