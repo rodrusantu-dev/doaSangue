@@ -1,0 +1,34 @@
+// -----------------------------------------------------------------------------
+// Este arquivo contém todas as variáveis Sass de escopo global do aplicativo.
+// -----------------------------------------------------------------------------
+
+
+/// Família de fonte regular
+/// @type Lista
+$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+/// Família de fonte para código (monoespaçada)
+/// @type Lista
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+
+/// Cor do texto de cópia
+
+//Cores Logo
+$cor-fundoLogo: #EFEEEC;
+$cor-vermelhoLogo: #971014;
+
+//Cores Principais
+$cor-vermelhoEscuro: #620404;
+$cor-vermelhoMedio: #7D0808;
+$cor-vermelhoClaro: #D00B0B;
+
+//Cores Secundárias
+$cor-branco: #ffff;
+
+
+/// Largura máxima do container
+/// @type Comprimento
+$max-width: 1180px !default;
+
+
