@@ -1,0 +1,44 @@
+@use '../utils/variables' as var;
+
+/* Estilos de botão */
+.button-container {
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  padding: 10px 25px;
+  border-radius: 35px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.button {
+  margin-right: 20px; /* Espaço entre os botões */
+}
+
+.button:last-child {
+  margin-right: 0; /* Remove a margem do último botão */
+}
+
+.button-conhecer {
+  background-color: var.$cor-vermelhoLogo;
+  color: var.$cor-branco;
+  line-height: 1;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+}
+
+.button-conhecer:hover {
+  background-color: var.$cor-vermelhoClaro;
+  color: var.$cor-branco;
+}

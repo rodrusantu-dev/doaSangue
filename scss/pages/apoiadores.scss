@@ -1,0 +1,32 @@
+@use '../utils/variables' as var;
+
+.listaApoiadores {
+    padding-left: 20px;
+    color: var.$cor-vermelhoClaro;
+    
+}
+
+.bannerApoiadores {
+    max-width: 350px; /* Defina o tamanho desejado para a largura máxima da imagem */
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center ;
+  }
+
+  
+  @media screen and (max-width: 600px) {
+    header {
+      flex-direction: column;
+    }
+
+    .bannerApoiadores {
+      max-width: 250px; /* Defina o tamanho desejado para a largura máxima da imagem */
+      height: auto; /* Mantém a proporção de altura da imagem */
+      display: flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center ;
+    }
+}

@@ -1,11 +1,17 @@
 @charset "UTF-8";
-body {
+* {
   font-family: "Roboto Slab", serif, "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-h1, h2 {
-  color: #333333;
+h1 {
+  color: #7D0808;
   font-family: "Roboto Slab", serif, "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+button,
+a {
+  cursor: pointer;
+  transition: all 0.8s;
 }
 
 header {
@@ -32,15 +38,14 @@ section h2 {
   padding-top: 20px;
 }
 
-.animated-section {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.5s ease, visibility 0.5s ease;
+.red-text {
+  color: red;
+  font-weight: bold;
 }
 
-.animated-section.visible {
-  opacity: 1;
-  visibility: visible;
+.texto-sublinhado {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .botao-topo {
@@ -68,6 +73,49 @@ section h2 {
   font-family: Arial, sans-serif;
 }
 
+/* Estilos de botão */
+.button-container {
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  padding: 10px 25px;
+  border-radius: 35px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.button {
+  margin-right: 20px; /* Espaço entre os botões */
+}
+
+.button:last-child {
+  margin-right: 0; /* Remove a margem do último botão */
+}
+
+.button-conhecer {
+  background-color: #971014;
+  color: white;
+  line-height: 1;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+}
+
+.button-conhecer:hover {
+  background-color: #D00B0B;
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -82,6 +130,9 @@ footer {
 footer p {
   color: white;
   text-align: center;
+  padding-top: 24px;
+  opacity: 0.9;
+  font-size: 18px;
 }
 
 .header-logo img {
@@ -150,6 +201,40 @@ nav ul li a:hover {
 
 section ul {
   margin-left: 20px;
+}
+
+.listaApoiadores {
+  padding-left: 20px;
+  color: #D00B0B;
+}
+
+.bannerApoiadores {
+  max-width: 350px; /* Defina o tamanho desejado para a largura máxima da imagem */
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+  .bannerApoiadores {
+    max-width: 250px; /* Defina o tamanho desejado para a largura máxima da imagem */
+    height: auto; /* Mantém a proporção de altura da imagem */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+}
+.bannerDepoimentos {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
