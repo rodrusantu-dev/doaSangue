@@ -6,7 +6,33 @@
   outline: none;
   padding: 10px 15px;
   border-radius: 35px;
-  background-color: var.$cor-vermelhoClaro;
+  background-color: transparent;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.button-container2 {
+  border: 0;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 35px;
+  background-color: var.$cor-vermelhoEscuro;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.button-container3 {
+  border: 0;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 35px;
+  background-color: transparent;
   text-align: center;
   font-weight: bold;
   font-size: 14px;
