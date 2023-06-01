@@ -76,10 +76,10 @@ section h2 {
 /* Estilos de botão */
 .button-container {
   border: 0;
-  background-color: transparent;
   outline: none;
-  padding: 10px 25px;
+  padding: 10px 15px;
   border-radius: 35px;
+  background-color: #D00B0B;
   text-align: center;
   font-weight: bold;
   font-size: 14px;
@@ -103,7 +103,7 @@ section h2 {
 }
 
 .button-conhecer {
-  background-color: #971014;
+  background-color: #D00B0B;
   color: white;
   line-height: 1;
   font-size: 15px;
@@ -112,7 +112,7 @@ section h2 {
 }
 
 .button-conhecer:hover {
-  background-color: #D00B0B;
+  background-color: #7D0808;
   color: white;
 }
 
@@ -122,7 +122,7 @@ section h2 {
 }
 
 footer {
-  background-color: #620404;
+  background-color: #333333;
   padding-top: 25px;
   padding-bottom: 25px;
 }
