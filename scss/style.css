@@ -92,7 +92,7 @@ section h2 {
   outline: none;
   padding: 10px 15px;
   border-radius: 35px;
-  background-color: #620404;
+  background-color: #0177ad;
   text-align: center;
   font-weight: bold;
   font-size: 14px;
@@ -105,7 +105,7 @@ section h2 {
   outline: none;
   padding: 10px 15px;
   border-radius: 35px;
-  background-color: #D00B0B;
+  background-color: transparent;
   text-align: center;
   font-weight: bold;
   font-size: 14px;
@@ -130,6 +130,24 @@ section h2 {
 
 .button-conhecer {
   background-color: #D00B0B;
+  color: white;
+  line-height: 1;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+}
+
+.button-conhecer2 {
+  background-color: #04579b;
+  color: white;
+  line-height: 1;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+}
+
+.button-conhecer3 {
+  background-color: #75241e;
   color: white;
   line-height: 1;
   font-size: 15px;
