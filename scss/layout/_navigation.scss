@@ -13,14 +13,14 @@ nav ul {
   
   nav ul li a {
     text-decoration: none;
-    color: var.$cor-vermelhoClaro;
+    color: var.$cor-nav;
     font-size: 16px;
     font-weight: 600;
     font-family: var.$fonte-titulos;
   }
   
   nav ul li a:hover {
-    color: var.$cor-vermelhoEscuro; 
+    color: var.$cor-branco; 
   }
 
   section ul {

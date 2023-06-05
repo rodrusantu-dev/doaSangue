@@ -11,45 +11,17 @@
   font-weight: bold;
   font-size: 14px;
   margin-top: 15px;
-  margin-bottom: 20px;
-}
-
-.button-container2 {
-  border: 0;
-  outline: none;
-  padding: 10px 15px;
-  border-radius: 35px;
-  background-color: #0177ad;
-  text-align: center;
-  font-weight: bold;
-  font-size: 14px;
-  margin-top: 15px;
-  margin-bottom: 20px;
-}
-
-.button-container3 {
-  border: 0;
-  outline: none;
-  padding: 10px 15px;
-  border-radius: 35px;
-  background-color: transparent;
-  text-align: center;
-  font-weight: bold;
-  font-size: 14px;
-  margin-top: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .button-group {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-top: 32px;
+  margin-top: 10px;
 }
 
-.button {
-  margin-right: 20px; /* Espaço entre os botões */
-}
+
 
 .button:last-child {
   margin-right: 0; /* Remove a margem do último botão */
@@ -64,25 +36,35 @@
   padding: 10px;
 }
 
-.button-conhecer2 {
-  background-color: #04579b;
-  color: var.$cor-branco;
-  line-height: 1;
-  font-size: 15px;
-  text-align: center;
-  padding: 10px;
-}
-
-.button-conhecer3 {
-  background-color: #75241e;
-  color: var.$cor-branco;
-  line-height: 1;
-  font-size: 15px;
-  text-align: center;
-  padding: 10px;
-}
-
 .button-conhecer:hover {
   background-color: var.$cor-vermelhoMedio;
+  color: var.$cor-branco;
+}
+
+/* Estilos de botão */
+.button-container2 {
+  border: 0;
+  outline: none;
+  padding: 5px 0px;
+  border-radius: 35px;
+  background-color: transparent;
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.button-conhecer2 {
+  background-color: #047591;
+  color: var.$cor-branco;
+  line-height: 1;
+  font-size: 15px;
+  text-align: left;
+  padding: 10px;
+}
+
+.button-conhecer2:hover {
+  background-color: #033744;
   color: var.$cor-branco;
 }
